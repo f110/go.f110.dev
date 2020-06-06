@@ -1,0 +1,7 @@
+runtime: php55
+
+handlers:
+  - url: /mono
+    static_files: mono
+    upload: mono
+    mime_type: text/html
